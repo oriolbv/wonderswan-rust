@@ -2,8 +2,6 @@ use orbtk::prelude::*;
 
 use orbtk::{Application, Window};
 
-static mut WSC: i32 = 1;
-
 fn main() {
     Application::new()
     .window(|ctx| {
@@ -17,5 +15,17 @@ fn main() {
 
 
     // Init variables
+    let wsc : i32 = 1;
+	let screen_size : i32 = 2;
+	let flipd : i32 = 0;
+	let wsShades : i32 = 0;
+	let wsCycles : i32 = 0;
+	let wsLine : i32 = 0;
+	let rom_size : i32 = 128000000;
+	let wsMakeScr : i32 = 0;
+	let fr : i32 = 0;
+	let frameskip : i32 = 1;
+	let wsVMode : i32 = -1;
+	let vsync : i32 = 1;
     
 }
