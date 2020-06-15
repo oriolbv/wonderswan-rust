@@ -28,4 +28,9 @@ fn main() {
 	let wsVMode : i32 = -1;
 	let vsync : i32 = 1;
     
+    //let mut exit = False
+    // Main Loop
+    while true {
+        println!("Main Loop");
+    }
 }
