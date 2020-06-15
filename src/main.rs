@@ -2,6 +2,8 @@ use orbtk::prelude::*;
 
 use orbtk::{Application, Window};
 
+static mut WSC: i32 = 1;
+
 fn main() {
     Application::new()
     .window(|ctx| {
@@ -12,4 +14,8 @@ fn main() {
             .build(ctx)
     })
     .run();
+
+
+    // Init variables
+    
 }
