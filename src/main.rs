@@ -66,7 +66,10 @@ fn main() {
 	let fr : i32 = 0;
 	let frameskip : i32 = 1;
 	let wsVMode : i32 = -1;
-	let vsync : i32 = 1;
+    let vsync : i32 = 1;
     
+    // Main Loop
+    while true {
+        println!("Main Loop");
+    }
 }
-
