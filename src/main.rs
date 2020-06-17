@@ -2,6 +2,8 @@ use orbtk::prelude::*;
 
 use orbtk::{Application, Window};
 
+mod main_view;
+
 #[derive(Copy, Clone)]
 enum ProgressEvent {
     Advance(f64),
