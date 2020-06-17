@@ -4,5 +4,10 @@ version = "0.1.0"
 authors = ["Oriol Burgaya <oriolbv@gmail.com>"]
 edition = "2018"
 
-[dependencies]
-orbtk = { git = "https://github.com/redox-os/orbtk.git", branch = "develop" }
+[dependencies.gtk]
+version = "0.8.1"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
