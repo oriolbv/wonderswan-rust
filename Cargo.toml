@@ -6,4 +6,4 @@ edition = "2018"
 
 
 [dependencies]
-azul = { git = "https://github.com/maps4print/azul" }
+sciter-rs = "*"
